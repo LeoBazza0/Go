@@ -1,0 +1,73 @@
+=== RUN   TestMainMultiplo
+### Questo test verifica output atteso!
+Input:
+1
+Output:
+input non valido
+
+Expected output:
+input non valido
+
+### Questo test verifica output atteso!
+Input:
+ll
+Output:
+input non valido
+
+Expected output:
+input non valido
+
+### Questo test verifica output atteso!
+Input:
+L
+Output:
+*
+*
+*
+*
+*****
+
+Expected output:
+*
+*
+*
+*
+*****
+
+### Questo test verifica output atteso!
+Input:
+T
+Output:
+*****
+  *
+  *
+  *
+  *
+
+Expected output:
+*****
+  *
+  *
+  *
+  *
+
+### Questo test verifica output atteso!
+Input:
+Z
+Output:
+*****
+   *
+  *
+ *
+*****
+
+Expected output:
+*****
+   *
+  *
+ *
+*****
+
+--- PASS: TestMainMultiplo (0.01s)
+PASS
+ok  	_/home/atrentini/Dropbox/ProgLabTemi/Appelli2019/Esame-13set2019/Tema/filtro	0.007s

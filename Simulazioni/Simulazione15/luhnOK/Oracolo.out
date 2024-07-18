@@ -1,0 +1,30 @@
+=== RUN   TestMainMultiplo
+### Questo test verifica output atteso!
+Actual output:
+4539148803436467 valido
+8273123273520569 non valido
+4024007190270651 valido
+4929876177122565 non valido
+bastiancontrario dato non valido
+492987 dato non valido
+
+Expected output:
+4539148803436467 valido
+8273123273520569 non valido
+4024007190270651 valido
+4929876177122565 non valido
+bastiancontrario dato non valido
+492987 dato non valido
+
+--- PASS: TestMainMultiplo (0.00s)
+=== RUN   TestMainNoInput
+### Questo test verifica output atteso!
+Actual output:
+no input
+
+Expected output:
+no input
+
+--- PASS: TestMainNoInput (0.00s)
+PASS
+ok  	_/home/atrentini/Dropbox/ProgLabTemi/Appelli2019/Esame-13set2019/Tema/luhn	0.003s

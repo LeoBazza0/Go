@@ -1,0 +1,25 @@
+=== RUN   TestInput
+### Questo test verifica output atteso!
+Output ATTESO:
+--++===
+
+Output OTTENUTO:
+--++===
+
+### Questo test verifica output atteso!
+Output ATTESO:
++-+++=-
+
+Output OTTENUTO:
++-+++=-
+
+### Questo test verifica output atteso!
+Output ATTESO:
++++++=----
+
+Output OTTENUTO:
++++++=----
+
+--- PASS: TestInput (0.00s)
+PASS
+ok  	_/home/atrentini/Dropbox/ProgLabTemi/Appelli2019/Esame-03lug2019/Tema/filtro	0.007s

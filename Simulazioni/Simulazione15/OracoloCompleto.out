@@ -1,0 +1,269 @@
+================== ./filtro ==================
+-- Files presenti:
+filtro.go
+filtro_test.go
+-----
+=== RUN   TestMainMultiplo
+### Questo test verifica output atteso!
+Input:
+1
+Output:
+input non valido
+
+Expected output:
+input non valido
+
+### Questo test verifica output atteso!
+Input:
+ll
+Output:
+input non valido
+
+Expected output:
+input non valido
+
+### Questo test verifica output atteso!
+Input:
+L
+Output:
+*
+*
+*
+*
+*****
+
+Expected output:
+*
+*
+*
+*
+*****
+
+### Questo test verifica output atteso!
+Input:
+T
+Output:
+*****
+  *
+  *
+  *
+  *
+
+Expected output:
+*****
+  *
+  *
+  *
+  *
+
+### Questo test verifica output atteso!
+Input:
+Z
+Output:
+*****
+   *
+  *
+ *
+*****
+
+Expected output:
+*****
+   *
+  *
+ *
+*****
+
+--- PASS: TestMainMultiplo (0.01s)
+PASS
+ok  	_/home/atrentini/Dropbox/ProgLabTemi/Appelli2019/Esame-13set2019/Tema/filtro	0.007s
+================== ./isogrammi ==================
+-- Files presenti:
+isogrammi.go
+isogrammi_test.go
+-----
+=== RUN   TestInput
+### Questo test verifica output atteso!
+Output ATTESO:
+velocista: SI
+tavoli: SI
+supercalifragilistichespiralidoso: NO
+The Quick Brown Fox Jumps Over The Lazy Dog: NO
+conquista: SI
+break-time: NO
+dove si cena?: NO
+come si fa?: SI
+isogram: SI
+six-pack: SI
+casa: NO
+tavolo: NO
+cruscotto: NO
+diavolo: NO
+
+Output OTTENUTO:
+velocista: SI
+tavoli: SI
+supercalifragilistichespiralidoso: NO
+The Quick Brown Fox Jumps Over The Lazy Dog: NO
+conquista: SI
+break-time: NO
+dove si cena?: NO
+come si fa?: SI
+isogram: SI
+six-pack: SI
+casa: NO
+tavolo: NO
+cruscotto: NO
+diavolo: NO
+
+--- PASS: TestInput (0.00s)
+=== RUN   TestNotIsogram
+-----non isogramma------------------------------
+--- PASS: TestNotIsogram (0.00s)
+=== RUN   TestIsogram
+-----isogramma------------------------------
+--- PASS: TestIsogram (0.00s)
+=== RUN   TestIsogramSpezzato
+-----isogramma spezzato------------------------------
+--- PASS: TestIsogramSpezzato (0.00s)
+=== RUN   TestIsogramSpezzatoExtraChar
+-----isogramma spezzato extra char------------------------------
+--- PASS: TestIsogramSpezzatoExtraChar (0.00s)
+PASS
+ok  	_/home/atrentini/Dropbox/ProgLabTemi/Appelli2019/Esame-13set2019/Tema/isogrammi	0.002s
+================== ./luhn ==================
+-- Files presenti:
+luhn.go
+luhn_test.go
+-----
+=== RUN   TestMainMultiplo
+### Questo test verifica output atteso!
+Actual output:
+4539148803436467 valido
+8273123273520569 non valido
+4024007190270651 valido
+4929876177122565 non valido
+bastiancontrario dato non valido
+492987 dato non valido
+
+Expected output:
+4539148803436467 valido
+8273123273520569 non valido
+4024007190270651 valido
+4929876177122565 non valido
+bastiancontrario dato non valido
+492987 dato non valido
+
+--- PASS: TestMainMultiplo (0.00s)
+=== RUN   TestMainNoInput
+### Questo test verifica output atteso!
+Actual output:
+no input
+
+Expected output:
+no input
+
+--- PASS: TestMainNoInput (0.00s)
+PASS
+ok  	_/home/atrentini/Dropbox/ProgLabTemi/Appelli2019/Esame-13set2019/Tema/luhn	0.003s
+================== ./presenze ==================
+-- Files presenti:
+presenze.go
+presenze_test.go
+-----
+=== RUN   TestInput
+### Questo test verifica output atteso!
+Output ATTESO:
+Ida Unruh 381732 3
+Carolynn Wimmer 93824923 6
+Vada Furrow 28391 5
+Maurine Even 28318 9
+Lamar Tapp 3261725631 8
+Sook Earle 763512 6
+Denita Strothers 217632187 7
+Carin Poteet 27651 7
+Ina Blessing 29319812 6
+Tish Billingsly 28738213 8
+Felice Hermanson 5968598659 6
+Everette Zeman 73627632 7
+Agnus Birnbaum 29329832 6
+Dania Crail 2329832 1
+Violet Carnell 29387287 4
+Marcelina Tuck 2736276 5
+Freda Leonardo 2387872 7
+Vina Clermont 832323 6
+Gidget Phung 38723872 9
+Ignacia Schaffner 23762372 5
+
+Output OTTENUTO:
+Ida Unruh 381732 3
+Carolynn Wimmer 93824923 6
+Vada Furrow 28391 5
+Maurine Even 28318 9
+Lamar Tapp 3261725631 8
+Sook Earle 763512 6
+Denita Strothers 217632187 7
+Carin Poteet 27651 7
+Ina Blessing 29319812 6
+Tish Billingsly 28738213 8
+Felice Hermanson 5968598659 6
+Everette Zeman 73627632 7
+Agnus Birnbaum 29329832 6
+Dania Crail 2329832 1
+Violet Carnell 29387287 4
+Marcelina Tuck 2736276 5
+Freda Leonardo 2387872 7
+Vina Clermont 832323 6
+Gidget Phung 38723872 9
+Ignacia Schaffner 23762372 5
+
+### Questo test verifica output atteso!
+Output ATTESO:
+Ida Unruh 381732 2
+Carolynn Wimmer 93824923 7
+Vada Furrow 28391 5
+Maurine Even 28318 9
+Lamar Tapp 3261725631 8
+Sook Earle 763512 6
+Denita Strothers 217632187 7
+Carin Poteet 27651 8
+Ina Blessing 29319812 5
+Tish Billingsly 28738213 8
+Felice Hermanson 5968598659 6
+Everette Zeman 73627632 7
+Agnus Birnbaum 29329832 6
+Dania Crail 2329832 1
+Violet Carnell 29387287 4
+Marcelina Tuck 2736276 5
+Freda Leonardo 2387872 7
+Vina Clermont 832323 6
+Gidget Phung 38723872 9
+Ignacia Schaffner 23762372 4
+
+Output OTTENUTO:
+Ida Unruh 381732 2
+Carolynn Wimmer 93824923 7
+Vada Furrow 28391 5
+Maurine Even 28318 9
+Lamar Tapp 3261725631 8
+Sook Earle 763512 6
+Denita Strothers 217632187 7
+Carin Poteet 27651 8
+Ina Blessing 29319812 5
+Tish Billingsly 28738213 8
+Felice Hermanson 5968598659 6
+Everette Zeman 73627632 7
+Agnus Birnbaum 29329832 6
+Dania Crail 2329832 1
+Violet Carnell 29387287 4
+Marcelina Tuck 2736276 5
+Freda Leonardo 2387872 7
+Vina Clermont 832323 6
+Gidget Phung 38723872 9
+Ignacia Schaffner 23762372 4
+
+--- PASS: TestInput (0.00s)
+=== RUN   TestFunzione
+### Questo test verifica risultato atteso!
+--- PASS: TestFunzione (0.00s)
+PASS
+ok  	_/home/atrentini/Dropbox/ProgLabTemi/Appelli2019/Esame-13set2019/Tema/presenze	0.004s

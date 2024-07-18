@@ -1,0 +1,22 @@
+=== RUN   TestInput
+### Questo test verifica output atteso!
+Output ATTESO:
+[sakdjhas ouo pippo pippo pooiu ouoii trtrtrt ytyty]
+8
+
+Output OTTENUTO:
+[sakdjhas ouo pippo pippo pooiu ouoii trtrtrt ytyty]
+8
+
+### Questo test verifica output atteso!
+Output ATTESO:
+[WqeiQwuewq wqeuqwe uiUiU xnbcxnbcx PPP]
+5
+
+Output OTTENUTO:
+[WqeiQwuewq wqeuqwe uiUiU xnbcxnbcx PPP]
+5
+
+--- PASS: TestInput (0.00s)
+PASS
+ok  	_/home/atrentini/Dropbox/ProgLabTemi/Appelli2019/Esame-03lug2019/Tema/parole	0.004s

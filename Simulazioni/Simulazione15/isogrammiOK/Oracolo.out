@@ -1,0 +1,49 @@
+=== RUN   TestInput
+### Questo test verifica output atteso!
+Output ATTESO:
+velocista: SI
+tavoli: SI
+supercalifragilistichespiralidoso: NO
+The Quick Brown Fox Jumps Over The Lazy Dog: NO
+conquista: SI
+break-time: NO
+dove si cena?: NO
+come si fa?: SI
+isogram: SI
+six-pack: SI
+casa: NO
+tavolo: NO
+cruscotto: NO
+diavolo: NO
+
+Output OTTENUTO:
+velocista: SI
+tavoli: SI
+supercalifragilistichespiralidoso: NO
+The Quick Brown Fox Jumps Over The Lazy Dog: NO
+conquista: SI
+break-time: NO
+dove si cena?: NO
+come si fa?: SI
+isogram: SI
+six-pack: SI
+casa: NO
+tavolo: NO
+cruscotto: NO
+diavolo: NO
+
+--- PASS: TestInput (0.00s)
+=== RUN   TestNotIsogram
+-----non isogramma------------------------------
+--- PASS: TestNotIsogram (0.00s)
+=== RUN   TestIsogram
+-----isogramma------------------------------
+--- PASS: TestIsogram (0.00s)
+=== RUN   TestIsogramSpezzato
+-----isogramma spezzato------------------------------
+--- PASS: TestIsogramSpezzato (0.00s)
+=== RUN   TestIsogramSpezzatoExtraChar
+-----isogramma spezzato extra char------------------------------
+--- PASS: TestIsogramSpezzatoExtraChar (0.00s)
+PASS
+ok  	_/home/atrentini/Dropbox/ProgLabTemi/Appelli2019/Esame-13set2019/Tema/isogrammi	0.002s
